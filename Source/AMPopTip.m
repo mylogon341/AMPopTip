@@ -478,7 +478,7 @@
         self.transform = CGAffineTransformIdentity;
         self->_isAnimating = NO;
         if (self.dismissHandler) {
-            self.dismissHandler();
+            self.dismissHandler(self);
         }
     };
 

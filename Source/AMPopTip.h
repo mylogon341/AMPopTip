@@ -451,7 +451,7 @@ NS_ASSUME_NONNULL_END
  *
  * A block that will be fired when the popover is dismissed.
  */
-@property (nonatomic, copy) void (^_Nullable dismissHandler)();
+@property (nonatomic, copy) void (^_Nullable dismissHandler)( AMPopTip * _Nullable );
 
 /** Entrance animation
  *
